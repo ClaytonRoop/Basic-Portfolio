@@ -2,6 +2,7 @@
 body {
     background-image: url("../images/dust_scratches.png");
     width: 960px;
+    margin-left: 0px;
 
 }
 
@@ -11,7 +12,6 @@ body {
     /* float: left; */
     margin-top: -10px;
     margin-bottom: 20px;
-    margin
     width: 100%;
     height: 60px;
     background: #ffffff;
@@ -93,27 +93,68 @@ body {
 
 .sidebox {
     float: left;
+   position: relative;
     height: 200px;
     width: 250px;
     margin: 0px 0px 0px 20px;
     background: #ffffff;
     border: 2px solid #dddddd;
 }
+.sideheader {
+    position: absolute;
+    color: teal;
+    /* background: lightblue; */
+    height: 30px;
+    width: 150px;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #dddddd;
+    margin: 20px 55px 0px 55px;
+}
 
 .icons {
-    width: 30px;
+    float: left;
+    positon: absolute;
+    width: 60px;
+    margin: 
+
+}
+
+.facebook {
+    position: absolute;
+    top: 50%;
+    left: 10%
+}
+
+.linkedin {
+    position: absolute;
+    top: 50%;
+    left: 40%
+}
+
+.github {
+     position: absolute;
+    top: 50%;
+    left: 68%
 }
 
 .footer {
-position: relative;
-clear:both;
-margin: 10px;
-height: 60px;
-background: #666666;
-border-top: 4px solid teal;
+    position: fixed;
+    bottom: 0;
+    right;0;
+    /* clear:both; */
+    /* margin: 10px; */
+    height: 60px;
+    width: 960px;
+    background: #666666;
+    border-top: 4px solid teal;
+    color: white;
+    line-height: 60px;
+    text-align: center;
 }
 
-.linefooter {
+/* .linefooter {
     position: absolute;
     width: 100%;
     height: 60px;
@@ -121,4 +162,4 @@ border-top: 4px solid teal;
     line-height: 60px;
     margin: 0 auto;
     color: white;
-}
+} */
