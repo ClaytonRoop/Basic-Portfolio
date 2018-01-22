@@ -169,14 +169,14 @@ body {
     height 400px;
     background: #ffffff;
     border: 2px solid #dddddd;
-    margin: 0px 20px 20px 40px;
+    margin: 0px 20px 100px 40px;
     padding: 0px 15px 10px 15px;
 }
 
 .portboxes {
     position: relative;
     float: left;
-    margin: 12px;
+    margin: 12px 25px 12px 40px;
 }
 
 .portboxes .pictext {
@@ -186,10 +186,9 @@ body {
     width: 200px;
     background-color: teal;
     color: white;
-    top: 120px;
+    top: 140px;
     text-align: center;
     line-height: 40px;
-
 }
 
 /* .citypic {
